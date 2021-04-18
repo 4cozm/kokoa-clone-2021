@@ -1,0 +1,8 @@
+.status_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.status_bar span {
+  font-weight: bold;
+}
