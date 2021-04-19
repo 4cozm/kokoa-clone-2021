@@ -1,3 +1,3 @@
 # kokoa Clone 2021 study
 
-im done!!!!!!!
+잘했어
