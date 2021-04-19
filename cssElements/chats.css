@@ -1,0 +1,26 @@
+.chat {
+  position: relative;
+  cursor: pointer;
+}
+
+.chat_time {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 5px;
+}
+.chat_alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: orangered;
+  font-size: 8px;
+  color: white;
+  margin-top: 5px;
+}
+.chat_msg p {
+  margin-bottom: 5px;
+}

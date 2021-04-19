@@ -1,0 +1,53 @@
+.friends_bar_setting {
+  margin-top: 10px;
+}
+.setting i {
+  color: rgba(0, 0, 0, 0.8);
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.setting div > p {
+  font-size: 20px;
+  cursor: pointer;
+}
+.setting {
+  display: flex;
+  height: 800px;
+  align-content: center;
+  flex-direction: column;
+  margin: 10px 0px 0px 5%;
+}
+.setting_menu {
+  display: flex;
+  align-items: center;
+  margin-top: 36px;
+}
+.setting_menu p {
+  margin-left: 5%;
+  cursor: pointer;
+}
+.version {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.line2 {
+  margin: 40px 0px 15px 0px;
+}
+.setting_new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  font-size: 1px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  left: 95px;
+}
+.new2 {
+  left: 135px;
+}

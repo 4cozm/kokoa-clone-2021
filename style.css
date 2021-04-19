@@ -1,8 +1,14 @@
-@import url(reset.css);
-@import url("variable.css");
-@import url(welcome/login_box_btn.css);
-@import url("welcome/status_bar.css");
+@import url("components/reset.css");
+@import url("components/variable.css");
+@import url("components/login_box_btn.css");
+@import url("components/status_bar.css");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("csselements/friends.css");
+@import url("components/bottom_bar.css");
+@import url("components/profile.css");
+@import url("csselements/chats.css");
+@import url("cssElements/find.css");
+@import url("cssElements/setting.css");
 body {
   position: relative;
   display: flex;
@@ -12,97 +18,43 @@ body {
   height: 80%;
   font-family: "Nanum Gothic", sans-serif;
 }
-.servecolor {
-  color: rgba(0, 0, 0, 0.5);
-}
-.nav {
-  background-color: rgba(0, 0, 0, 0.05);
+#chating {
+  background-color: azure;
+  height: 11000vh;
   width: 100%;
-  height: 50px;
+}
+.friends_bar_chat {
   position: fixed;
-  bottom: 0px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-.nav__ul {
   display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  justify-content: space-around;
-}
-.friends_bar {
-  display: flex;
+  top: 5px;
   width: 90%;
   margin-left: 5%;
   height: 50px;
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
+  background-color: azure;
 }
-.friends_bar_main {
-  font-size: 30px;
-  font-weight: bold;
-}
-.friends_bar_icon i {
-  margin-left: 10px;
-}
-.friends_display {
+.main_chat {
   display: flex;
   width: 100%;
-  height: 50px;
-  align-items: center;
+  height: 100%;
+  margin-top: 25%;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.05);
 }
-.friends_display i {
-  color: rgba(0, 0, 0, 0.3);
-  margin: 0px 10px;
+.chat_main {
+  padding-left: 20px;
 }
-.profile_lg {
+.chat__timestamp p {
   display: flex;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 80px;
-  margin: 20px 0px 20px 5%;
-}
-.profile_lg img {
-  border-radius: 28px;
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-}
-.profile_lg p {
-  margin-left: 10px;
-  font-size: 20px;
-  font-weight: bold;
-}
-.line {
-  background-color: rgba(0, 0, 0, 0.05);
-  width: 90%;
-  margin-left: 5%;
-  height: 2px;
-}
-.menu {
-  display: flex;
-  padding: 10px;
-  margin: 0% 5%;
-  justify-content: space-between;
-}
-.profile_m {
-  position: relative;
-  display: flex;
-  width: 90%;
-  height: 40px;
-  margin: 5% 5%;
-  align-items: center;
-}
-.profile_m img {
-  height: 55px;
-  width: 55px;
-  object-fit: cover;
+  width: 200px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
-.profile_m p {
-  margin-left: 10px;
-  font-size: 20px;
+.status_bar_chat {
+  background-color: azure;
+  padding-bottom: 20px;
 }

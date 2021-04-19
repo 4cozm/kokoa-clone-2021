@@ -135,6 +135,14 @@ a:active {
   color: #333333;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: orangered;
+}
+.main_font {
+  font-weight: bold;
+}
+.serve_font {
+  font-weight: lighter;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
 }

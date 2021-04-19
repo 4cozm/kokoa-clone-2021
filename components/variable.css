@@ -1,3 +1,6 @@
 :root {
   --serve_color: rgba(0, 0, 0, 0.4);
 }
+.servecolor {
+  color: rgba(0, 0, 0, 0.5);
+}
