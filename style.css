@@ -3,10 +3,10 @@
 @import url("components/login_box_btn.css");
 @import url("components/status_bar.css");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
-@import url("csselements/friends.css");
+@import url("cssElements/friends.css");
 @import url("components/bottom_bar.css");
 @import url("components/profile.css");
-@import url("csselements/chats.css");
+@import url("cssElements/chats.css");
 @import url("cssElements/find.css");
 @import url("cssElements/setting.css");
 body {
