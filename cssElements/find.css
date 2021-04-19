@@ -53,6 +53,7 @@
   align-content: center;
   margin: 0% 5% 0% 5%;
   height: 120px;
+  z-index: 0;
 }
 .open_chat_signup {
   display: flex;
@@ -106,4 +107,7 @@
   color: white;
   border-radius: 10px;
   cursor: pointer;
+}
+.nav {
+  z-index: 1;
 }
